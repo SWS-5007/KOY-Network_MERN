@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+  .policies {
+    min-height: 0px;
+  }
+
+  .policies .overlap {
+    width: 100%;
+    padding: 0%;
+    overflow: auto;
+  }
+
+  .policies .logo-image {
+    position: relative;
+    width: 124px;
+    height: 30px;
+    object-fit: cover;
+    top: 8px;
+  }
+
+  .policies .policies-header {
+    height: 146px;
+    padding: 5px 13px;
+    background-color: #90b862;
+  }
+
+  .policies .back {
+    color: #fff;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .policies .header-title {
+    text-align: center;
+    margin-top: 38px;
+    color: #3f4955;
+    font-family: "Inter", Helvetica;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .policies .policies-container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(48vh - 1px);
+  }
+
+  .policies .container-left {
+    min-width: 204px;
+    height: fit-content;
+    margin-top: 23px;
+    margin-left: 15px;
+  }
+
+  .policies .container-left p:hover {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .policies .container-left .clickedSubject {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .policies .text-3 {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .policies .container-right {
+    padding: 0px 15px;
+    margin-right: 0px;
+  }
+
+  .policies .container-right .disabled {
+    display: none;
+  }
+
+  .policies .content-content {
+    margin-top: 43px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .policies .text-5 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}

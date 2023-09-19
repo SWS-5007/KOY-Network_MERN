@@ -1,0 +1,15 @@
+.layout-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: calc(70%);
+}
+
+@media (max-width: 768px) {
+  .layout-main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(60% + 10px);
+  }
+}

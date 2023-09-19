@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .whoskoy .overlap {
+    width: 90%;
+    padding: 0% 5%;
+    min-height: calc(55vh - 7px);
+  }
+
+  .whoskoy .overlap-2 {
+    margin-top: 25px;
+  }
+
+  .whoskoy .text-1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+  }
+
+  .whoskoy .text-2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .whoskoy .whoskoy-section-3 {
+    display: none;
+  }
+}

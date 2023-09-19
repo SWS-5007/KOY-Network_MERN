@@ -1,0 +1,17 @@
+.signupmodal-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupmodal-wrapper .modal-joinkoy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupmodal-wrapper .overlap {
+  display: flex;
+  justify-content: center;
+}

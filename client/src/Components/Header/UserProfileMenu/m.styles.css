@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .header-user-wrapper .header-user-iconbtn {
+    display: none;
+  }
+
+  .header-user-wrapper .mobile-header-user-iconbtn {
+    display: flex !important;
+  }
+}

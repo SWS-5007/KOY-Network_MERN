@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .tandp .overlap {
+    width: 90%;
+    padding: 0% 5%;
+    min-height: calc(55vh - 7px);
+  }
+
+  .tandp .overlap-2 {
+    margin-top: 25px;
+  }
+
+  .tandp .container-title-1 {
+    display: none;
+  }
+
+  .tandp .container-title-2 {
+    display: none;
+  }
+}

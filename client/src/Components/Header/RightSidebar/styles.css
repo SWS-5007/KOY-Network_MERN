@@ -1,0 +1,88 @@
+.header-rightsidebar-wrapper .sidebar-wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.header-rightsidebar-wrapper .sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+}
+
+.header-rightsidebar-wrapper .sidebar-header-username {
+  color: #3f4955;
+  font-family: Helvetica Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.header-rightsidebar-wrapper .sidebarslide {
+  width: 75% !important;
+  max-width: 75% !important;
+  background: #1a1a1a;
+}
+
+.header-rightsidebar-wrapper .sidebar-closeIcon {
+  width: fit-content;
+  padding: 30px;
+  background-color: transparent;
+}
+
+.header-rightsidebar-wrapper .sidebar-lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 60px);
+  padding: 15px 30px;
+  background-color: transparent;
+
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-rightsidebar-wrapper .sidebar-lists:hover {
+  background-color: #323232;
+}
+
+.header-rightsidebar-wrapper .sidebar-lists-border-top {
+  border-top: 1px solid #eee;
+}
+
+.header-rightsidebar-wrapper .sidebar-lists-border-bottom {
+  border-bottom: 1px solid #eee;
+}
+
+.bm-burger-button {
+  display: none;
+}
+
+.header-rightsidebar-wrapper .sidebar-btns {
+  width: 100%;
+  margin-top: 25px;
+  background-color: #ce1c61;
+  border-radius: 3px;
+  padding: 12px 0px;
+}
+
+.header-rightsidebar-wrapper .text-1 {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Inter", Helvetica;
+}
+
+.sidebar-btns-wrapper {
+  position: absolute;
+  bottom: 0px;
+  width: calc(100% - 40px);
+  margin: 0px 20px 30px 20px;
+}
+
+.header-rightsidebar-wrapper .TP-Accordion {
+}

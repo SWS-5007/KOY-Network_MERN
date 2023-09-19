@@ -1,0 +1,49 @@
+.emailverify-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.emailverify-container .card {
+  width: 408px;
+  height: fit-content;
+  border-radius: 10px;
+  background: #fff;
+  padding: 40px 28px 30px 28px;
+  margin: 100px 0px;
+}
+
+.emailverify-container .card .text_1 {
+  color: #3f4955;
+  font-family: "Inter", Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.emailverify-container .card .text_2 {
+  color: #75787e;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 135.294% */
+}
+
+.emailverify-container .card .login_btn {
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-radius: 6px;
+  background: #f28706;
+  cursor: pointer;
+  margin-top: 40px;
+
+  color: #fff;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+}

@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .whykoy .overlap {
+    width: 90%;
+    padding: 0% 5%;
+    min-height: calc(55vh - 7px);
+  }
+
+  .whykoy .overlap-2 {
+    margin-top: 25px;
+  }
+
+  .whykoy .text-1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+  }
+
+  .whykoy .text-2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .whykoy .whykoy-section-3 {
+    display: none;
+  }
+}

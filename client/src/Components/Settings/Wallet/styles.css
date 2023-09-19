@@ -1,0 +1,138 @@
+.setting .setting-list-content-wallet {
+  width: 100%;
+  background: rgba(65, 129, 220, 0.05);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.setting-list-content-wallet .setting-wallet-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 51px;
+}
+
+.setting-list-content-wallet .content-title {
+  min-width: 177px;
+}
+
+.setting-list-content-wallet .content-title-1 {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 285.714% */
+}
+
+.setting-list-content-wallet .content-title-2 {
+  color: #9299a5;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.setting-list-content-wallet .content-main {
+  width: 100%;
+}
+
+.setting-list-content-wallet .content-main .main_child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.setting-list-content-wallet .content-main .main_child_title {
+  color: #b0b0b0;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.setting-list-content-wallet .content-main .main_child_title span {
+  color: #a0a6ac;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 255.556% */
+}
+
+.setting-list-content-wallet .setting_input {
+  width: calc(100% - 28px);
+  border-radius: 6px;
+  background: #1a1a1a;
+  padding: 8px 14px;
+  border: none;
+
+  color: #999;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 191.667% */
+}
+
+.setting-list-content-wallet .setting_input:focus-visible {
+  outline: none;
+}
+
+.setting-list-content-wallet .main_child_countryselect > div {
+  background-color: #1a1a1a;
+}
+
+.setting-list-content-wallet .main_child_countryselect input {
+  padding: 9px 4px !important;
+  color: #999;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.setting-list-content-wallet .main_child_driverlicenceselect {
+  background-color: #1a1a1a;
+  border-radius: 6px;
+}
+
+.setting-list-content-wallet .main_child_driverlicenceselect > div {
+  background-color: transparent;
+  color: #999;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.setting-list-content-wallet .main_child_driverlicenceselect input {
+  padding: 8px 14px;
+}
+
+.setting-list-content-wallet .setting-wallet-btns {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.setting-list-content-wallet .setting-wallet-btns button {
+  width: fit-content;
+  padding: 8px 20px;
+  border-radius: 3px;
+  background: #f28706;
+  border: none;
+  cursor: pointer;
+
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

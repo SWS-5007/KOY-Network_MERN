@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .home .overlap {
+    width: 90%;
+    padding: 0% 5%;
+  }
+
+  .home .image-1 {
+    display: none;
+  }
+
+  .home .overlap-2 {
+    margin-top: 25px;
+  }
+
+  .home .revolutionising {
+    display: none;
+  }
+
+  .home .m-revolutionising {
+    display: flex;
+    color: #fff;
+    font-family: "Inter", Helvetica;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .home .m-text-empowering {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 40px;
+  }
+
+  .home .m-text-through {
+    display: none;
+  }
+
+  .home .home-btns {
+    width: 100%;
+    margin-top: 46px;
+    background-color: #ce1c61;
+    border-radius: 3px;
+    padding: 12px 0px;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .home .home-section-3 {
+    gap: 45px;
+  }
+
+  .home-section-3 .home-text-3 {
+    font-size: 30px;
+  }
+
+  .home .home-text-4 {
+    width: 100%;
+    font-size: 22px;
+  }
+}

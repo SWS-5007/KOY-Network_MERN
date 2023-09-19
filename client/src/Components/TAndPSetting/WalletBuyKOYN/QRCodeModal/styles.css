@@ -1,0 +1,92 @@
+.qrmodal-container {
+  width: 408px;
+}
+
+.qrmodal-container .qrmodal-title {
+  color: #3f4955;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.qrmodal-container .qrmodal-description {
+  margin-top: 10px;
+  color: #75787e;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.qrmodal-description .span-text-1 {
+  color: #75787e;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.qrmodal-description .span-text-2 {
+  color: #f28706;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.qrmodal-container .qrcodemodal-qrcode {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.qrmodal-container .qrmodal-wallet-address {
+  color: #000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: 39px;
+  text-align: center;
+}
+
+.qrmodal-container .qrmodal-wallet-address-des {
+  color: #75787e;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 255.556% */
+  text-align: center;
+}
+
+.qrmodal-container button {
+  width: 100%;
+  border-radius: 3px;
+  padding: 8px 0px;
+  border: none;
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.qrmodal-container .copy-btn {
+  margin-top: 36px;
+  background: #f28706;
+}
+
+.qrmodal-container .track-btn {
+  margin-top: 10px;
+  background: #90b862;
+}

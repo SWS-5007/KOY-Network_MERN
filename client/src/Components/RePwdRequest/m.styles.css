@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .repwdrequest .overlap {
+    width: 90%;
+    padding: 0% 5%;
+    min-height: calc(55vh - 7px);
+  }
+
+  .repwdrequest .overlap-2 {
+    margin-top: 25px;
+  }
+}

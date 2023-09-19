@@ -1,0 +1,20 @@
+.repwdrequest {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.repwdrequest .overlap-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.repwdrequest .overlap {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  padding: 0% 15%;
+   
+overflow: auto;
+}

@@ -1,0 +1,139 @@
+.tandp .tandp-list-content-history {
+  width: 100%;
+  background: rgba(65, 129, 220, 0.05);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.tandp-list-content-history .tandp-history-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 51px;
+}
+
+.tandp-list-content-history .content-title {
+  min-width: 177px;
+}
+
+.tandp-list-content-history .content-title-1 {
+  color: #858585;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 285.714% */
+}
+
+.tandp-list-content-history .content-title-2 {
+  color: #9299a5;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tandp-list-content-history .tandp-history-btns {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.tandp-list-content-history .tandp-history-btns button {
+  width: fit-content;
+  padding: 8px 20px;
+  border-radius: 3px;
+  background: #f28706;
+  border: none;
+  cursor: pointer;
+
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.tandp-list-content-history .content-main {
+  width: 100%;
+}
+
+/* History Table Style */
+.history-table-wrapper {
+  width: 100%;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 7px 5px;
+}
+
+.table-header div {
+  color: #858585;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.table-body {
+  width: 100%;
+}
+
+.every-tx {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 7px 5px;
+  border-top: 1px solid white;
+}
+
+.every-tx:hover {
+  cursor: pointer;
+  background: rgba(65, 129, 220, 0.05);
+}
+
+.every-tx div {
+  color: #858585;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.every-tx .body-status {
+  display: flex;
+  gap: 12px;
+  position: relative;
+}
+
+.every-tx .status-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 110px;
+  border-radius: 5px;
+  padding: 6px 0px 5.5px 6px;
+}
+
+.every-tx .sent-status {
+  background: #f28705;
+}
+
+.every-tx .confirmed-status {
+  background: #2785fa;
+}
+
+.every-tx .processing-status {
+  background: #f3b400;
+}
+
+.every-tx .purchased-status {
+  background: #5ab26d;
+}

@@ -1,0 +1,33 @@
+.header-user-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-user-name {
+  color: #3f4955;
+  font-family: Helvetica Neue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mobile-header-user-iconbtn {
+  display: none !important;
+}
+
+.header-profile-menu-next-icon {
+  position: absolute;
+  right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.header-profile-menu-item-span {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: transparent;
+}

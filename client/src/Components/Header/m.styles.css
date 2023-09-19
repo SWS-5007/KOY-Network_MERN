@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .header .header-container {
+    padding: 0% 3%;
+  }
+
+  .header .header-section_2 {
+    display: none;
+  }
+
+  .header .header-menu-icon {
+    display: flex;
+  }
+
+  .header .image-2 {
+    top: 4px;
+  }
+
+  .header-btns {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}

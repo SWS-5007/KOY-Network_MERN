@@ -1,0 +1,107 @@
+.whatiskoy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.whatiskoy .overlap-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.whatiskoy .overlap {
+  width: 70%;
+  padding: 0% 15%;
+}
+
+.whatiskoy .image-1 {
+  position: absolute;
+  width: 661px;
+  height: 241px;
+  margin-top: -15px;
+  left: 0px;
+  object-fit: cover;
+}
+
+.whatiskoy .image {
+  position: absolute;
+  width: 875px;
+  height: 784px;
+  top: 95px;
+  right: 0px;
+  object-fit: cover;
+}
+
+.whatiskoy-female-image {
+  position: absolute;
+  width: 317px;
+  height: 780px;
+  top: 90px;
+  right: 10%;
+  object-fit: cover;
+  background-image: url("/public/img/image-4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 2;
+}
+
+@media (max-width: 1024px) {
+  .whatiskoy-female-image {
+    display: none;
+  }
+}
+
+.whatiskoy .overlap-2 {
+  width: 100%;
+  margin-top: 56px;
+}
+
+.whatiskoy .text-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 66px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 65px;
+}
+
+.whatiskoy .text-2 {
+  margin-top: 26px;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.whatiskoy-section-3 .whatiskoy-text-3 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.whatiskoy .whatiskoy-text-4 {
+  margin-top: 9px;
+  color: #d3d8df;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.whatiskoy-section-3 {
+  margin-top: 181px;
+  margin-left: 23px;
+  margin-bottom: 160px;
+}

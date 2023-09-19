@@ -1,0 +1,89 @@
+.whoskoy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.whoskoy .overlap-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.whoskoy .overlap {
+  width: 70%;
+  padding: 0% 15%;
+}
+
+.whoskoy .image-1 {
+  position: absolute;
+  width: 661px;
+  height: 241px;
+  margin-top: -15px;
+  left: 0px;
+  object-fit: cover;
+}
+
+.whoskoy .image {
+  position: absolute;
+  width: 875px;
+  height: 784px;
+  top: 95px;
+  right: 0px;
+  object-fit: cover;
+}
+
+.whoskoy .overlap-2 {
+  width: 100%;
+  margin-top: 56px;
+}
+
+.whoskoy .text-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 66px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 65px;
+}
+
+.whoskoy .text-2 {
+  margin-top: 26px;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.whoskoy-section-3 .whoskoy-text-3 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.whoskoy .whoskoy-text-4 {
+  margin-top: 9px;
+  color: #d3d8df;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+.whoskoy-section-3 {
+  margin-top: 181px;
+  margin-left: 23px;
+  margin-bottom: 164px;
+}

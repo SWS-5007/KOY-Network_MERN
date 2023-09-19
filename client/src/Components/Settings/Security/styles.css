@@ -1,0 +1,210 @@
+.setting .setting-list-content-security {
+  width: 100%;
+  background: rgba(65, 129, 220, 0.05);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.setting-list-content-security .setting-security-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 51px;
+}
+
+.setting-list-content-security .content-title {
+  min-width: 177px;
+}
+
+.setting-list-content-security .content-title-1 {
+  color: #d9d9d9;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 285.714% */
+}
+
+.setting-list-content-security .content-title-2 {
+  color: #9299a5;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.setting-list-content-security .content-main {
+  width: 100%;
+}
+
+.setting-list-content-security .content-main .main_child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.setting-list-content-security .content-main .main_child_title {
+  color: #b0b0b0;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.setting-list-content-security .content-main .main_child_title span {
+  color: #a0a6ac;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 255.556% */
+}
+
+.setting-list-content-security .every-passkey {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 28px);
+  padding: 8px 14px;
+  border-radius: 6px;
+  background-color: #1a1a1a;
+}
+
+.setting-list-content-security .text-1 {
+  color: #3f4955;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.setting-list-content-security .every-passkey-delbtn {
+  background-color: transparent;
+}
+
+.setting-list-content-security .setting_input {
+  width: calc(100% - 28px);
+  border-radius: 6px;
+  background: #1a1a1a;
+  padding: 8px 14px;
+  border: none;
+
+  color: #999;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 191.667% */
+}
+
+.setting-list-content-security .setting_input:focus-visible {
+  outline: none;
+}
+
+.setting-list-content-security .main_child_countryselect > div {
+  background-color: #1a1a1a;
+}
+
+.setting-list-content-security .main_child_countryselect input {
+  padding: 9px 4px !important;
+  color: #999;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.setting-list-content-security .main_child_2fa {
+  background-color: #1a1a1a;
+  border-radius: 6px;
+}
+
+.setting-list-content-security .main_child_2fa > div {
+  background-color: transparent;
+  color: #999;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.setting-list-content-security .main_child_2fa input {
+  padding: 8px 14px;
+}
+
+.setting-list-content-security .setting-security-btns {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.setting-list-content-security .password {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.setting-list-content-security .pwd-check-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.setting-list-content-security .password-toggle {
+  position: absolute;
+  right: 16px;
+  z-index: 10;
+}
+
+.setting-list-content-security .pwd-check-wrapper .element_2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 50%;
+}
+
+.setting-list-content-security .pwd-check-element {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.setting-list-content-security .pwd-check-wrapper .white-status {
+  background-color: #ffffff;
+}
+
+.setting-list-content-security .pwd-check-wrapper .green-status {
+  background-color: #17c63d;
+}
+
+.setting-list-content-security .text-4 {
+  color: #a0a6ac;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.setting-list-content-security .button {
+  min-width: 94px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  background: #f28706;
+  border: none;
+  cursor: pointer;
+
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

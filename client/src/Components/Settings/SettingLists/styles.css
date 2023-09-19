@@ -1,0 +1,37 @@
+.setting .setting-lists-wrapper {
+  min-width: 230px;
+  height: fit-content;
+  background: rgba(65, 129, 220, 0.05);
+  border-radius: 6px;
+}
+
+.setting .setting-list-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 5px 17px;
+  color: #ededed;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.setting .setting-list-item > div:first-child {
+  width: 2px;
+  height: calc(100% - 6px);
+  position: absolute;
+  left: 0;
+  background: transparent;
+}
+
+.setting .selected-list-color {
+  color: #f28706 !important;
+}
+
+.setting .selected-list {
+  background: #f28706 !important;
+}
+

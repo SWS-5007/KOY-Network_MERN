@@ -1,0 +1,114 @@
+.App {
+  background: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .App {
+    height: 100vh;
+    background: #1a1a1a;
+    overflow: auto;
+  }
+}
+
+.scroller {
+  width: 3px;
+  /* display: none; */
+}
+
+.scroller::-webkit-scrollbar {
+  width: 3px;
+  /* display: none; */
+}
+
+/* Track */
+.scroller::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.scroller::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroller::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  /* display: none; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+p {
+  margin: 0px;
+}
+
+/* .layout .ellipse {
+  background-color: #ce1c61;
+  border-radius: 715.33px/91.01px;
+  filter: blur(500px);
+  height: 182px;
+  left: 50%;
+  opacity: 0.65;
+  position: fixed;
+  top: 625px;
+  transform: rotate(-89.66deg);
+  width: 1431px;
+} */
+
+.errorMsg {
+  color: red;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.none {
+  display: none;
+}
+
+.ellipse-2 {
+  background-color: #ff0000;
+  border-radius: 600.34px/80.65px;
+  filter: blur(500px);
+  width: 45%;
+  height: 15%;
+  right: -25%;
+  opacity: 0.95;
+  position: fixed;
+  top: 45%;
+  transform: rotate(-89.66deg);
+}
+
+.ellipse-5 {
+  border-radius: 763.558px;
+  opacity: 0.95;
+  background: #ff8e05;
+  filter: blur(250px);
+  width: 45%;
+  height: 15%;
+  right: -25%;
+  position: fixed;
+  top: 45%;
+  transform: rotate(-89.663deg);
+}

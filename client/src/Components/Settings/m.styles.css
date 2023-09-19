@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .setting .overlap {
+    width: 90%;
+    padding: 0% 5%;
+    min-height: calc(55vh - 7px);
+  }
+
+  .setting .overlap-2 {
+    margin-top: 25px;
+  }
+
+  .setting .container-title-1 {
+    display: none;
+  }
+
+  .setting .container-title-2 {
+    display: none;
+  }
+}

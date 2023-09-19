@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+  .contactUs {
+    min-height: 0px;
+  }
+
+  .contactUs .overlap {
+    width: 100%;
+    padding: 0%;
+    overflow: auto;
+  }
+
+  .contactUs .logo-image {
+    position: relative;
+    width: 124px;
+    height: 30px;
+    object-fit: cover;
+    top: 8px;
+  }
+
+  .contactUs .contactUs-header {
+    height: 146px;
+    padding: 5px 13px;
+    background-color: #90b862;
+  }
+
+  .contactUs .back {
+    color: #fff;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .contactUs .header-title {
+    text-align: center;
+    margin-top: 38px;
+    color: #3f4955;
+    font-family: "Inter", Helvetica;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .contactUs .contactUs-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 32px);
+    height: calc(100% - 22px);
+    padding: 19px 16px;
+    background-color: #fff;
+  }
+
+  .contactUs .container-section_1 {
+    flex-direction: column;
+    gap: 44px;
+  }
+
+  .contactUs .container-section_2 {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .contactUs .container-section_2-line {
+    margin-top: 10px;
+  }
+
+  .contactUs .emailusimage,
+  .callusimage {
+    display: none;
+  }
+
+  .contactUs .section_2-overlap {
+    align-items: start;
+    flex-direction: column;
+    gap: 47px;
+  }
+
+  .contactUs .contactUs-container .text-3 {
+    color: #3f4955;
+    font-family: "Inter", Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .contactUs .contactUs-container .text-4 {
+    color: #6d6d6d;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .contactUs .contactUs-container .text-5 {
+    color: #4181dc;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .contactUs .contactUs-container .text-6 {
+    color: #3f4955;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .contactUs .contactUs-container .text-7 {
+    color: #4181dc;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+}

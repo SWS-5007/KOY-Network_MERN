@@ -1,0 +1,167 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .overlap-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home .overlap {
+  width: 70%;
+  height: 2948px;
+  padding: 0% 15%;
+}
+
+.home .image-1 {
+  position: absolute;
+  width: 661px;
+  height: 241px;
+  margin-top: -15px;
+  left: 0px;
+  object-fit: cover;
+}
+
+.home .image {
+  position: absolute;
+  width: 875px;
+  height: 784px;
+  top: 95px;
+  right: 0px;
+  object-fit: cover;
+}
+
+.home-female-image {
+  position: absolute;
+  width: 555px;
+  height: 785px;
+  top: 95px;
+  right: 0px;
+  object-fit: cover;
+  background-image: url("/public/img/image-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media (max-width: 1024px) {
+  .home-female-image {
+    display: none;
+  }
+}
+
+.home .overlap-2 {
+  width: 100%;
+  margin-top: 67px;
+}
+
+.home .revolutionising {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 65px;
+}
+
+.home .m-revolutionising {
+  display: none;
+}
+
+.home .text-wrapper-14 {
+  width: 720px;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .m-text-empowering {
+  margin-top: 50px;
+}
+
+.home .m-text-through {
+  margin-top: 10px;
+}
+
+.home-section-3 .home-text-3 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .home-text-4 {
+  width: 310px;
+  margin-top: 15px;
+  color: #d3d8df;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.home .span {
+  color: #d3d8df;
+}
+
+.home-section-3 .home-text-5 {
+  color: #ee05f2;
+  font-weight: 500;
+}
+
+.home .insert-more {
+  width: 100%;
+  text-align: center;
+  margin-top: 279px;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 54px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .img {
+  height: 42px;
+  left: 390px;
+  object-fit: cover;
+  position: relative;
+  top: 2704px;
+  width: 168px;
+}
+
+.home-section-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  position: relative;
+  margin-top: 67px;
+}
+
+.home-btns {
+  width: 400px;
+  margin-top: 46px;
+  background-color: #f28705;
+  border-radius: 3px;
+  padding: 8px 0px;
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

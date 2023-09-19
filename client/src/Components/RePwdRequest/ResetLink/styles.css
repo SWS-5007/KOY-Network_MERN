@@ -1,0 +1,35 @@
+.repwdrequest .resetlink-card-container {
+  width: 408px;
+  border-radius: 10px;
+  background: #fff;
+  margin: 140px 0px 87px 0px;
+  padding: 40px 30px 20px 30px;
+}
+
+.resetlink-card-container .text-1 {
+  color: #3f4955;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.resetlink-card-container .text-2 {
+  color: #75787e;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.resetlink-card-container .reset-email-span {
+  color: #f28705;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}

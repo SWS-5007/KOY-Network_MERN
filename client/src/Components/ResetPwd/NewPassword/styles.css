@@ -1,0 +1,111 @@
+.repwd .repwd-card-container {
+  width: 408px;
+  border-radius: 10px;
+  background: #fff;
+  margin: 140px 0px 87px 0px;
+  padding: 40px 30px 20px 30px;
+}
+
+.repwd-card-container input {
+  background-color: #f1f1f1;
+  border: 1px solid;
+  border-color: #4181dc;
+  border-radius: 6px;
+  width: -webkit-fill-available;
+  height: 21px;
+  padding: 8px 14px;
+}
+
+.repwd-card-container .pwd-check-element {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.repwd-card-container .password {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.repwd-card-container .pwd-check-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.repwd-card-container .password-toggle {
+  position: absolute;
+  right: 16px;
+  z-index: 10;
+}
+
+.repwd-card-container .pwd-check-wrapper .element_2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 50%;
+}
+
+.repwd-card-container .pwd-check-wrapper .black-status {
+  background-color: #000000;
+}
+
+.repwd-card-container .pwd-check-wrapper .green-status {
+  background-color: #17c63d;
+}
+
+.repwd-card-container .text-1 {
+  color: #3f4955;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.repwd-card-container .text-2 {
+  color: #75787e;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 8px;
+}
+
+.repwd-card-container .text-3 {
+  color: #3f4955;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.repwd-card-container .text-4 {
+  color: #a0a6ac;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.repwd-card-container .save-new-pwd-btn {
+  width: 100%;
+  height: 38px;
+  margin-top: 31px;
+  border-radius: 6px;
+  border: none;
+  background: #f28705;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+}

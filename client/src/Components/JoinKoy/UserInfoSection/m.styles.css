@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .userinfo-card-container {
+    width: 100%;
+    height: 100%;
+    background: #dddcdc;
+    border-radius: 0px;
+    /* margin: 140px 0px 87px 0px; */
+    padding: 40px 30px 20px 30px;
+  }
+
+  .userinfo-card-container input {
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: -webkit-fill-available;
+    height: 21px;
+    padding: 8px 14px;
+    outline: unset;
+  }
+
+  .userinfo-card-container input:focus-visible {
+    outline: unset;
+  }
+}
